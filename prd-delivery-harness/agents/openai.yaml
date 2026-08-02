@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRD Delivery Harness"
+  short_description: "一次显式调用完成 PRD 到验证版 STEP 与执行计划"
+  default_prompt: "Use $prd-delivery-harness to review this PRD and produce verified STEPs plus a planning-only milestone plan."
+
+policy:
+  allow_implicit_invocation: false

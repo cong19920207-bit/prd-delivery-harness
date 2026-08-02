@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRD 审查"
+  short_description: "显式审查 PRD、仓库差异、需求风险与来源覆盖"
+  default_prompt: "Use $prd-review to review the provided PRD against available project evidence and return this phase's result."
+
+policy:
+  allow_implicit_invocation: false

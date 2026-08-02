@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRD 拆解为 STEP"
+  short_description: "显式把已审查 PRD 拆成可追踪的 STEP 草稿"
+  default_prompt: "Use $prd-to-steps to turn the reviewed PRD into traceable STEP drafts without inventing business values."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "里程碑 STEP 编排"
+  short_description: "显式把验证版 STEP 编排为可验收里程碑和批次"
+  default_prompt: "Use $milestone-step-execution to organize verified STEPs into milestones without changing their content."
+
+policy:
+  allow_implicit_invocation: false

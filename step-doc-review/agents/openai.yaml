@@ -1,0 +1,7 @@
+interface:
+  display_name: "STEP 文档审查"
+  short_description: "显式审查、修正确凿问题并完整复审 STEP 文档"
+  default_prompt: "Use $step-doc-review to audit the STEP document against its PRD and evidence, repairing only deterministic issues when requested."
+
+policy:
+  allow_implicit_invocation: false
